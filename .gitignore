@@ -1,0 +1,25 @@
+# Python environment
+myenv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Build / bytecode
+*.egg-info/
+build/
+dist/
+
+# App data
+data/history.db
+data/index.faiss
